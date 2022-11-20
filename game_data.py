@@ -1,13 +1,13 @@
 data = [
     {
         'name': 'Instagram',
-        'follower_count': 346,
+        'follower_count': 348,
         'description': 'Social media platform',
         'country': 'United States'
     },
     {
         'name': 'Cristiano Ronaldo',
-        'follower_count': 215,
+        'follower_count': 218,
         'description': 'Footballer',
         'country': 'Portugal'
     },
@@ -37,7 +37,7 @@ data = [
     },
     {
         'name': 'Kim Kardashian',
-        'follower_count': 167,
+        'follower_count': 168,
         'description': 'Reality TV personality and businesswoman',
         'country': 'United States'
     },

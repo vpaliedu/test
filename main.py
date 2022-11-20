@@ -17,7 +17,7 @@ def checker(guess, numA, numB):
             return "You right! {score}"
         else:
             inGame = False
-            return f"You loose, final score {score}"
+            return f"Loser, final score {score}"
     else:
         guessedNum = game_data.data[numB]['follower_count']
         if guessedNum > game_data.data[numA]['follower_count']:
@@ -25,7 +25,7 @@ def checker(guess, numA, numB):
             return f"You right! {score}"
         else:
             inGame = False
-            return f"You loose, final score {score}"
+            return f"Loser, final score {score}"
 
 while inGame == True:
     numA = random.randint(0,49)
